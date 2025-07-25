@@ -621,3 +621,85 @@ h1 {
     width: 100%;
   }
 }
+@media (max-width: 430px) {
+  .deals {
+    grid-template-columns: 1fr;
+  }
+  .nav-links {
+    display: none;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .left_text {
+    width: 100%;
+  }
+  .left_text h1 {
+    font-size: 1.5rem;
+  }
+  .left_text p {
+    font-size: 0.8rem;
+    color: #878383;
+  }
+  .right_img {
+    width: 100%;
+  }
+  .plant_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .top_text h2 {
+    font-size: 1.5rem;
+  }
+  .top_text p {
+    font-size: 0.8rem;
+    color: #878383;
+  }
+  .plant_main {
+    margin: 0 auto;
+  }
+  .plant_lover {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+  }
+  .plant_lover_text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .container p {
+    font-size: 0.7rem;
+  }
+  .custom-list {
+    font-size: 0.7rem;
+    color: #878383;
+  }
+  .ticket {
+    display: none;
+  }
+  .button {
+    padding: 0.8rem 2rem;
+  }
+  .main_footer {
+    flex-direction: column;
+  }
+  .plant_lover_text {
+    align-items: flex-start;
+  }
+  .container h2 {
+    font-size: 1.5rem;
+  }
+  .img_gird {
+    max-width: 200px;
+  }
+  .footer_2 {
+    padding: 0;
+  }
+  .footer_3 {
+    padding: 0;
+  }
+  .big-deal img {
+    max-height: 180px;
+  }
+  .footer_1 {
+    width: 100%;
+  }
+}
