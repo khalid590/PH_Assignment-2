@@ -412,4 +412,57 @@ h1 {
   }
 }
 
+@media (max-width: 900px) {
+  .deals {
+    grid-template-columns: 1fr;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .left_text {
+    width: 100%;
+  }
+  .left_text h1 {
+    font-size: 2.5rem;
+  }
+  .plant_lover_text h2 {
+    font-size: 2.5rem;
+  }
+  .right_img {
+    width: 100%;
+  }
+  .plant_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .top_text h2 {
+    font-size: 2.5rem;
+  }
+  .top_text p {
+    font-size: 1rem;
+  }
+  .plant_main {
+    margin: 0 auto;
+  }
+  .plant_lover {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ticket {
+    display: none;
+  }
+  .button {
+    padding: 0.8rem 2.5rem;
+  }
+  .plant_lover_text {
+    padding-left: 0rem;
+    align-items: flex-start;
+  }
+  .container h2 {
+    font-size: 2.5rem;
+  }
+  .big-deal img {
+    max-height: 180px;
+  }
+}
+
 
